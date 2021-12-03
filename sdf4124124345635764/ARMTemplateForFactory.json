@@ -208,10 +208,110 @@
 									},
 									{
 										"source": {
-											"ordinal": 21
+											"ordinal": 2
 										},
 										"sink": {
-											"name": "STOCK",
+											"name": "CATEGORY",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 3
+										},
+										"sink": {
+											"name": "NAME",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 4
+										},
+										"sink": {
+											"name": "ATTRIBUTE1",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 5
+										},
+										"sink": {
+											"name": "ATTRIBUTE2",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 6
+										},
+										"sink": {
+											"name": "VALUE1",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 7
+										},
+										"sink": {
+											"name": "VALUE2",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 8
+										},
+										"sink": {
+											"name": "DESCRIPTION",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 9
+										},
+										"sink": {
+											"name": "BRAND",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 10
+										},
+										"sink": {
+											"name": "FEATURE",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 11
+										},
+										"sink": {
+											"name": "PRICE",
+											"type": "Double",
+											"physicalType": "float"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 12
+										},
+										"sink": {
+											"name": "PVP_BIGBUY",
 											"type": "Double",
 											"physicalType": "float"
 										}
@@ -225,6 +325,176 @@
 											"type": "Double",
 											"physicalType": "float"
 										}
+									},
+									{
+										"source": {
+											"ordinal": 14
+										},
+										"sink": {
+											"name": "IVA",
+											"type": "Double",
+											"physicalType": "float"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 15
+										},
+										"sink": {
+											"name": "VIDEO",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 16
+										},
+										"sink": {
+											"name": "EAN13",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 17
+										},
+										"sink": {
+											"name": "WIDTH",
+											"type": "Double",
+											"physicalType": "float"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 18
+										},
+										"sink": {
+											"name": "HEIGHT",
+											"type": "Double",
+											"physicalType": "float"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 19
+										},
+										"sink": {
+											"name": "DEPTH",
+											"type": "Double",
+											"physicalType": "float"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 20
+										},
+										"sink": {
+											"name": "WEIGHT",
+											"type": "Double",
+											"physicalType": "float"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 21
+										},
+										"sink": {
+											"name": "STOCK",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 24
+										},
+										"sink": {
+											"name": "IMAGE1",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 25
+										},
+										"sink": {
+											"name": "IMAGE2",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 26
+										},
+										"sink": {
+											"name": "IMAGE3",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 27
+										},
+										"sink": {
+											"name": "IMAGE4",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 28
+										},
+										"sink": {
+											"name": "IMAGE5",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 29
+										},
+										"sink": {
+											"name": "IMAGE6",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 30
+										},
+										"sink": {
+											"name": "IMAGE7",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 31
+										},
+										"sink": {
+											"name": "IMAGE8",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
+									},
+									{
+										"source": {
+											"ordinal": 32
+										},
+										"sink": {
+											"name": "CONDITION",
+											"type": "String",
+											"physicalType": "nvarchar"
+										}
 									}
 								],
 								"typeConversion": true,
@@ -236,14 +506,14 @@
 						},
 						"inputs": [
 							{
-								"referenceName": "simplecopyS",
+								"referenceName": "FULLCOPYSourceData",
 								"type": "DatasetReference",
 								"parameters": {}
 							}
 						],
 						"outputs": [
 							{
-								"referenceName": "simplecopyD",
+								"referenceName": "FULLCOPYD",
 								"type": "DatasetReference",
 								"parameters": {}
 							}
@@ -258,8 +528,8 @@
 				"lastPublishTime": "2021-11-17T09:45:20Z"
 			},
 			"dependsOn": [
-				"[concat(variables('factoryId'), '/datasets/simplecopyS')]",
-				"[concat(variables('factoryId'), '/datasets/simplecopyD')]"
+				"[concat(variables('factoryId'), '/datasets/FULLCOPYSourceData')]",
+				"[concat(variables('factoryId'), '/datasets/FULLCOPYD')]"
 			]
 		},
 		{
@@ -276,7 +546,7 @@
 				"schema": [],
 				"typeProperties": {
 					"schema": "dbo",
-					"table": "productss"
+					"table": "products_all_information"
 				}
 			},
 			"dependsOn": [
@@ -284,7 +554,7 @@
 			]
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/SourceDatasetFULLCOPY')]",
+			"name": "[concat(parameters('factoryName'), '/FULLCOPYSourceData')]",
 			"type": "Microsoft.DataFactory/factories/datasets",
 			"apiVersion": "2018-06-01",
 			"properties": {
