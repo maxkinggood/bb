@@ -1,0 +1,70 @@
+{
+	"$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"type": "string",
+			"metadata": "数据工厂名称",
+			"defaultValue": "sdf4124124345635764"
+		},
+		"FtpServer1_password": {
+			"type": "secureString",
+			"metadata": "“FtpServer1”的“password”的安全字符串"
+		},
+		"SqlServer1_connectionString": {
+			"type": "secureString",
+			"metadata": "“SqlServer1”的“connectionString”的安全字符串"
+		},
+		"FtpServer1_properties_typeProperties_host": {
+			"type": "string",
+			"defaultValue": "www.dropshippers.com.es"
+		},
+		"FtpServer1_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "bbVZJVt0dOlR"
+		},
+		"containerUri": {
+			"type": "string",
+			"metadata": "包含链接 ARM 模板的存储帐户的 URI"
+		},
+		"containerSasToken": {
+			"type": "string",
+			"metadata": "包含链接 ARM 模板的存储帐户的 SAS 令牌"
+		}
+	},
+	"variables": {
+		"factoryId": "[concat('Microsoft.DataFactory/factories/', parameters('factoryName'))]"
+	},
+	"resources": [
+		{
+			"name": "sdf4124124345635764_ArmTemplate_0",
+			"type": "Microsoft.Resources/deployments",
+			"apiVersion": "2018-02-01",
+			"properties": {
+				"mode": "incremental",
+				"templateLink": {
+					"uri": "[concat(parameters('containerUri'), '/ArmTemplate_0.json', parameters('containerSasToken'))]",
+					"contentVersion": "1.0.0.0"
+				},
+				"parameters": {
+					"factoryName": {
+						"value": "[parameters('factoryName')]"
+					},
+					"FtpServer1_password": {
+						"value": "[parameters('FtpServer1_password')]"
+					},
+					"SqlServer1_connectionString": {
+						"value": "[parameters('SqlServer1_connectionString')]"
+					},
+					"FtpServer1_properties_typeProperties_host": {
+						"value": "[parameters('FtpServer1_properties_typeProperties_host')]"
+					},
+					"FtpServer1_properties_typeProperties_userName": {
+						"value": "[parameters('FtpServer1_properties_typeProperties_userName')]"
+					}
+				}
+			},
+			"dependsOn": []
+		}
+	]
+}

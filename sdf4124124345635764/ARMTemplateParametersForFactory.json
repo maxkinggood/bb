@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "sdf4124124345635764"
+		},
+		"FtpServer1_password": {
+			"value": ""
+		},
+		"SqlServer1_connectionString": {
+			"value": ""
+		},
+		"FtpServer1_properties_typeProperties_host": {
+			"value": "www.dropshippers.com.es"
+		},
+		"FtpServer1_properties_typeProperties_userName": {
+			"value": "bbVZJVt0dOlR"
+		}
+	}
+}
