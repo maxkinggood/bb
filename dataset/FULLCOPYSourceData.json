@@ -1,5 +1,5 @@
 {
-	"name": "SourceDatasetFULLCOPY",
+	"name": "FULLCOPYSourceData",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "FtpServer1",
